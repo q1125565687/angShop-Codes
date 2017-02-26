@@ -1,0 +1,343 @@
+[ 2016-12-22T00:57:28+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2016-12-22T00:57:28+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2016-12-22T00:57:28+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2016-12-22T00:57:29+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-12-22T00:57:29+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2016-12-22T00:57:29+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Index/images/menu_minus.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+
+[ 2016-12-22T00:57:29+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Index/images/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-12-22T00:57:32+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-12-22T00:58:06+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_sn`,`shop_price`,`is_on_sale`,`is_best`,`is_new`,`is_hot`,`goods_number` FROM `goods` ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-12-22T00:58:30+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Cat/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0013s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2016-12-22T00:59:18+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Cat/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0013s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-12-22T00:59:20+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Cat/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0014s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-12-22T00:59:33+08:00 ] ::1 /20160608--Exercise/shop/web/Admin/Goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_sn`,`shop_price`,`is_on_sale`,`is_best`,`is_new`,`is_hot`,`goods_number` FROM `goods` ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 70 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 71 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 72 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 73 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Admin\3ba6dc7da2bef3d0488d0c6217b63486.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+			<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+			<head>
+			<title>新建网页</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<meta name="description" content="布尔教育 http://www.itbool.com" />
+			<import type="css" file="Home.css.index"/>
+			<import type="js" file="Home.js.index"/>
+			</head>
+			    <body>
+			    	<table border="1">
+			    		<h1>{$title}</h1>
+			    		<h2>score:{$score},
+							<if condition="$score egt 60" >
+								及格
+							<else />
+								 不及格
+							</if>
+			    		</h2>
+			    		<select name="" id="">
+			    			<option value="1" {$area == 1?"selected":''}>beijing</option>
+			    			<option value="2" {$area == 2?"selected":''}>shanghai</option>
+			    			<option value="3" {$area == 3?"selected":''}>chongqing</option>
+			    		</select>
+			    		<tr>
+			    			<td>ID</td>
+			    			<td>TITLE</td>
+			    			<td>PRICE</td>
+			    		</tr>
+			    		<foreach name="news" item="g">
+			    		<tr>
+			    			<td>{$g.goods_id}</td>
+			    			<td>{$g.goods_name}</td>
+			    			<td>{$g.shop_price}</td>
+			    		</tr>
+			    		</foreach>
+			    	</table>
+
+
+
+
+			    </body>
+			</html>			

@@ -1,0 +1,25 @@
+create table ordinfo ( ordinfo_id int unsigned primary key auto_increment, 
+ord_sn char(12) not null default '', 
+user_id int not null default 0, 
+xm char(10) not null default '', 
+mobile char(11), address varchar(30), 
+paytype tinyint not null default 1,  #1在线,2是到付 
+paystatus tinyint not null default 0,#0未支付,1已付 
+money decimal(9,2), 
+note varchar(20) not null default '', 
+ordtime int unsigned not null default 0, 
+key user_id(user_id) 
+)engine myisam charset utf8;
+
+
+
+#订单对应的商品 
+create table ordgoods ( 
+ordgoods_id int primary key auto_increment, 
+ordinfo_id  int not null default 0, 
+goods_id  int not null default 0, 
+goods_name varchar(20), 
+shop_price decimal(7,2), 
+goods_num smallint unsigned not null default 0, 
+key ordinfo_id(ordinfo_id) 
+)engine myisam charset utf8;

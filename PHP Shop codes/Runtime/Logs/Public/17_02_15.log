@@ -1,0 +1,15 @@
+[ 2017-02-15T15:50:04+08:00 ] ::1 /20160608--Exercise/shop/web/Public/images/2017-02-13/thumb_58a09185326e6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2017-02-15T15:50:04+08:00 ] ::1 /20160608--Exercise/shop/web/Public/images/2017-02-13/thumb_58a091339dd8c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+
+[ 2017-02-15T15:50:04+08:00 ] ::1 /20160608--Exercise/shop/web/Public/images/2017-02-13/thumb_58a091363b870.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+

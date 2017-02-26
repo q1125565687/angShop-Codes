@@ -1,0 +1,48 @@
+[ 2016-12-13T05:29:19+08:00 ] ::1 /20160608--Exercise/shop/web/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Animated_favicon
+
+[ 2016-12-13T05:29:19+08:00 ] ::1 /20160608--Exercise/shop/web/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-12-13T05:29:23+08:00 ] ::1 /20160608--Exercise/shop/web/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Animated_favicon
+
+[ 2016-12-13T05:29:23+08:00 ] ::1 /20160608--Exercise/shop/web/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-12-13T05:29:27+08:00 ] ::1 /20160608--Exercise/shop/web/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+ERR: 无法加载模块:Animated_favicon
+
+[ 2016-12-13T05:29:27+08:00 ] ::1 /20160608--Exercise/shop/web/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-12-13T12:35:21+08:00 ] ::1 /20160608--Exercise/shop/web/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Animated_favicon
+
+[ 2016-12-13T12:35:22+08:00 ] ::1 /20160608--Exercise/shop/web/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Favicon
+

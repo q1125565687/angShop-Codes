@@ -1,0 +1,25 @@
+[ 2017-01-05T02:07:46+08:00 ] ::1 /20160608--Exercise/shop/web/Public/Home/images/basetb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2017-01-05T02:26:52+08:00 ] ::1 /20160608--Exercise/shop/web/Public/Home/images/basetb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+
+[ 2017-01-05T02:27:21+08:00 ] ::1 /20160608--Exercise/shop/web/Public/Home/images/basetb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+
+[ 2017-01-05T02:29:53+08:00 ] ::1 /20160608--Exercise/shop/web/Public/Home/images/basetb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-01-05T02:56:19+08:00 ] ::1 /20160608--Exercise/shop/web/Public/Home/images/basetb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+

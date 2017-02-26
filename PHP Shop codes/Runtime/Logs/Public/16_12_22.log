@@ -1,0 +1,10 @@
+[ 2016-12-22T00:57:20+08:00 ] ::1 /20160608--Exercise/shop/web/Public/Home/images/basetb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002753s ]
+
+[ 2016-12-22T00:57:24+08:00 ] ::1 /20160608--Exercise/shop/web/Public/Home/images/basetb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+

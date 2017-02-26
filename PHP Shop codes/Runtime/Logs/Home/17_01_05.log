@@ -1,0 +1,820 @@
+[ 2017-01-05T02:07:46+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0179s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0036s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods` WHERE ( is_best = 1  ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0038s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` WHERE ( is_new = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0005s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp\www\20160608--Exercise\shop\web\Home\Controller\IndexController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-01-05T02:07:46+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-01-05T02:07:46+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-01-05T02:26:52+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0013s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( is_best = 1  ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` WHERE ( is_new = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp\www\20160608--Exercise\shop\web\Home\Controller\IndexController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2017-01-05T02:26:52+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-01-05T02:26:52+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-01-05T02:27:21+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0013s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( is_best = 1  ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods` WHERE ( is_new = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp\www\20160608--Exercise\shop\web\Home\Controller\IndexController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2017-01-05T02:27:21+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+
+[ 2017-01-05T02:27:21+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-01-05T02:29:53+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0012s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE ( is_best = 1  ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` WHERE ( is_new = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp\www\20160608--Exercise\shop\web\Home\Controller\IndexController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-01-05T02:29:53+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-01-05T02:29:53+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-01-05T02:56:19+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0016s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( is_best = 1  ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` WHERE ( is_new = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp\www\20160608--Exercise\shop\web\Home\Controller\IndexController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 193 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 195 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 183 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 296 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 300 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 324 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 328 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 352 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp\www\20160608--Exercise\shop\web\Runtime\Cache\Home\ff3e637e987f91bebe112fc98016484d.php 第 356 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2017-01-05T02:56:19+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+
+[ 2017-01-05T02:56:19+08:00 ] ::1 /20160608--Exercise/shop/web/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+

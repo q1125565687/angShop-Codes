@@ -1,0 +1,797 @@
+[ 2017-02-15T15:36:19+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010448s ]
+ERR: 无法加载控制器:View
+[ 2017-02-15T15:36:19+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010359s ]
+ERR: 无法加载控制器:View
+
+View
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/logo100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/php.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/%7B$g.thumb_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/top_min.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/message.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/logo100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/php.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/top_min.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/%7B$g.thumb_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/message.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-02-15T15:36:20+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/logo100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/php.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/message.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/top_min.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-02-15T15:37:02+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/%7B$g.thumb_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:25+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:25+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:25+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/view/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:26+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/bussines-logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-02-15T15:37:26+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/by_top.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-02-15T15:37:26+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-02-15T15:37:26+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/top_min.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-02-15T15:37:26+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/%7B$g.thumb_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:37:26+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/tel1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-02-15T15:37:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-02-15T15:37:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/logo100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/php.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/top_min.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/logo100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/message.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-02-15T15:38:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/%7B$g.thumb_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:38:29+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-02-15T15:38:29+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-02-15T15:38:30+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:38:30+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:38:30+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/logo100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/php.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/top_min.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/%7B$g.thumb_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:43:03+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/message.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-02-15T15:43:04+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-02-15T15:43:04+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/logo100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/php.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/Home/images/message.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-02-15T15:45:27+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/__PUBLIC__/%7B$g.thumb_img%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+ERR: 无法加载控制器:View
+
+[ 2017-02-15T15:45:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/animated_favicon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-02-15T15:45:28+08:00 ] ::1 /20160608--Exercise/shop/web/Home/View/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-02-15T15:47:40+08:00 ] ::1 /20160608--Exercise/shop/web/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0102s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods` WHERE ( is_best = 1  ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( is_new = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp64\www\20160608--Exercise\shop\web\Home\Controller\IndexController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 207 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 209 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 197 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 310 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 310 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 310 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 314 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 338 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 342 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 338 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 342 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 338 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 342 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 366 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 370 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 366 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 370 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 366 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006718s ]
+
+[ 2017-02-15T15:50:04+08:00 ] ::1 /20160608--Exercise/shop/web/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0467s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0472s ]
+SQL: SELECT `cat_id`,`cat_name`,`parent_id` FROM `cat`  [ RunTime:0.0453s ]
+SQL: SELECT * FROM `goods` WHERE ( is_best = 1  ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0476s ]
+SQL: SELECT * FROM `goods` WHERE ( is_hot = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0464s ]
+SQL: SELECT * FROM `goods` WHERE ( is_new = 1 ) ORDER BY goods_id desc LIMIT 0,3   [ RunTime:0.0469s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\wamp64\www\20160608--Exercise\shop\web\Home\Controller\IndexController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant parent_id - assumed 'parent_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 198 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 200 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant lev - assumed 'lev' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 188 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 301 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 305 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 301 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 305 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 301 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 305 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 329 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 333 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 329 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 333 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 329 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 333 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 357 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 361 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 357 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 361 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 357 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' C:\wamp64\www\20160608--Exercise\shop\web\Runtime\Cache\Home\5ba1dc41125952f8535a244efa3c5a2b.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+

@@ -1,0 +1,16 @@
+insert into goods (goods_id , goods_sn ,  cat_id ,  brand_id ,  goods_name ,  shop_price ,  market_price ,  goods_number ,  click_count  ,  goods_weight ,  goods_brief  ,  goods_desc ,  thumb_img  ,  goods_img  ,  ori_img  ,  is_on_sale ,  is_delete  ,  is_best  ,  is_new ,  is_hot ,  add_time ,  last_update )
+select             goods_id  , goods_sn , cat_id , brand_id , goods_name , shop_price , market_price ,goods_number , click_count , goods_weight , goods_brief , goods_desc ,goods_thumb as thumb_img,  goods_img , original_img as ori_img,  is_on_sale , is_delete ,   is_best , is_new , is_hot , add_time ,last_update from shop.ecs_goods;
+
+
+
+
+
+goods_id ,   goods_name , goods_sn ,  shop_price ,  is_on_sale ,is_best  ,  is_new ,  is_hot ,  goods_number 
+
+
+
+
+market_price , click_count  ,  goods_weight ,  goods_brief  ,  goods_desc ,  thumb_img  ,  goods_img  ,  ori_img  ,   is_delete  ,    add_time ,  last_update
+
+
+//扩展 thumb_img 字段 太短

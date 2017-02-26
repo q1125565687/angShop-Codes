@@ -1,0 +1,97 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>新建网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="JM" content="Ming Jing http://www.JingMing.com" />
+<script src="./jquery.js">
+
+</script>
+<style>
+    div{
+        display: none;
+        height: 500;
+    }
+</style>
+</head>
+
+    <body>
+
+        <div id='ad'>
+            
+            <img src="./FQVWqJ.jpg"  />
+
+        </div>
+
+        username : <input type="text" name="username" /> <span></span>
+    </body>
+<script>
+	//alert($('#test1'));
+
+	//$('#test1').css('background' , 'yellow');
+	//$('.test2').css('background' , 'pink');
+	//$('p').css('background' , 'purple');
+
+	//document.getElementById('test5').style.background = 'gray';
+
+	//层次选择器
+	//$('p span').css('background' , 'green' );
+
+	//属性选择器，过滤选择器
+    /*
+
+    function change(){
+        if($('img').attr('src').indexOf('lo') > -1) 
+            $('img').attr('src', "../images/desert.jpg");
+        else
+            $('img').attr('src', "../images/logo.jpg");
+    }
+
+    function big() {
+
+        var w = parseInt($('div').css('width'));
+        var h = parseInt($('div').css('height'));
+        var k = parseInt($('div').css('borderBottomWidth'));
+
+        $('div').css('width', w + 10 +'px');
+        $('div').css('height', h + 10 +'px');
+
+        $('div').css('borderBottomWidth', k + 5 +'px');
+
+    }
+    */
+
+
+    //$('div').eq(1).delay(1000).slideDown(3000).delay(2000).slideUp(5000);
+    
+
+
+
+    $('div').delay(1000).slideDown(3000, function(){
+
+        $('#ad img').fadeOut(3000, function() {
+
+            $('#ad img').attr('src' , "../images/Desert.jpg").fadeIn(3000);
+        });    
+    });
+
+    // input 失去焦点触发事件
+    $('input').blur(function(){
+
+        var url = '26.php?u=' + $(this).val()  + '&_=' + Math.random();
+
+        $.get(url , function(msg){
+
+            if(msg == '1') {
+                $('span').html('<font color="red"> username used </font>') ;
+            }
+            else {
+                $('span').html('<font color="green"> may use </font>' );
+            }
+
+        }); 
+
+    });
+
+</script>
+</html>
