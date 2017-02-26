@@ -1,0 +1,85 @@
+
+
+
+<div class="row">
+
+  <div class="container">
+
+  <div class="col-xs-12 col-sm-6" >
+
+
+    <div class="thumbnail" *ngIf="hero">
+
+      <img src={{hero.thumb_img}} alt="...">
+      <div class="caption">
+
+        <h3>{{hero.goods_name}}</h3>
+
+        <p>{{hero.goods_id}} {{hero.goods_sn}} Shop Price: {{hero.shop_price|currency:'USD':true}}</p>
+
+        <p><a href="/detail/detail/{{hero.goods_id}}" class="btn btn-primary" role="button" >Details</a>
+
+          <a routerLink="/cart/cart/{{hero.goods_id}}/{{hero.goods_name}}/{{hero.shop_price}}" class="btn btn-success" role="button">Add to Cart</a>
+
+        </p>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<p>
+  small-goods works!
+</p>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-3" ></div>
+  <div class="col-xs-12 col-sm-6" >
+    <div class="thumbnail" *ngIf="hero">
+
+      <img src={{hero.thumb_img}} alt="...">
+      <div class="caption">
+
+        <h3>{{hero.goods_name}}</h3>
+
+        <p>{{hero.goods_id}} {{hero.goods_sn}} {{hero.shop_price}}</p>
+
+        <p><a href="/detail/detail/{{hero.goods_id}}" class="btn btn-primary" role="button" >Details</a>
+
+          <a href="#" class="btn btn-default" role="button">Add to Cart</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+<!--
+<div *ngIf="hero">
+  <h2>{{hero.name}} details!</h2>
+  <div><label>id: </label>{{hero.id}}</div>
+  <div>
+    <label>name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name"/>
+  </div>
+</div>
+
+
+-->

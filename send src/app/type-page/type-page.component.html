@@ -1,0 +1,126 @@
+<!-- For Test:
+<h2>In Type-page</h2>
+<button type="button" class="btn btn-outline-primary" (click)="showGoods()">Go back</button>
+
+{{diagnostic}}
+-->
+
+
+<nav class="navbar navbar-default">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Angular 2</a>
+
+        <!--
+      <a class="navbar-brand" href="#">
+        <img alt="Ming" src="./app/imgs/436631.jpg">
+      </a>
+
+      -->
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+        <!--
+        <li  *ngFor="let item of menuMyItems" class={{item.active}}><a href={{item.path}}{{item.parameterID}}>{{item.linkName}}</a></li>
+        -->
+
+        <li  *ngFor="let item of menuMyItems" class={{item.active}}><a routerLink={{item.path}}{{item.parameterID}}{{item.random}} routerLinkActive="active fluffy">{{item.linkName}}</a></li>
+      </ul>
+
+      <search></search>
+<!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/login/login">Login</a></li>
+      </ul>
+-->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/dashboard/dashboard" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-pencil"></span> Admin</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/cart/cart" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+
+
+<div class="row">
+  <div class="container">
+
+    <ul class="nav nav-tabs">
+
+      <!--
+          <li role="presentation" *ngFor="let item of tabItems" class={{item.active}}><a href="{{item.path}}{{item.parameterID}}">{{item.linkName}}</a></l
+    -->
+      <li role="presentation" *ngFor="let item of tabItems" class={{item.active}}><a routerLink="{{item.path}}{{item.parameterID}}{{item.random}}" routerLinkActive="active fluffy">{{item.linkName}}</a></li>
+
+    </ul>
+
+  <!--
+  <div class="col-lg-3 col-md-4 col-sm-6"  *ngFor="let item of goodsArray" >
+  -->
+    <br />
+
+  <div class="container col-lg-3 col-md-4 col-sm-6"  *ngFor="let item of goodsArray" >
+
+    <div class="thumbnail">
+
+      <img src={{item.thumb_img}} alt="...">
+
+        <div class="caption">
+
+            <h3 class="caption_h3">{{item.goods_name}}</h3>
+
+            <p class="pull-right"><s>{{item.market_price | currency:'USD':true}}</s></p>
+            <p>Market Price: </p>
+
+          <p class="pull-right">{{item.shop_price|currency:'USD':true}}</p>
+          <p>Shop Price  :</p>
+
+            <div class="row" style="padding: 3px 10px">
+
+              <p><a routerLink="/detail/detail/{{item.goods_id}}" class="btn btn-primary col-md-6 col-sm-6 col-xs-6" role="button" >Details</a>
+
+            <!--
+            <a href="#" class="btn btn-default" role="button">Add to Cart</a>
+          -->
+
+            <a routerLink="/cart/cart/{{item.goods_id}}/{{item.goods_name}}/{{item.shop_price}}" class="btn btn-success col-md-6 col-sm-6 col-xs-6" role="button">Add to Cart</a>
+
+          </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<script>
+  /*  ?? Role ??
+$(".nav a").on("click", function(){
+$(".nav").find(".active").removeClass("active");
+$(this).parent().addClass("active");
+});
+
+Test .............................. ???
+*/
+
+</script>

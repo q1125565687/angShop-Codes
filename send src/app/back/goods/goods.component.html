@@ -1,0 +1,128 @@
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Angular 2</a>
+
+      <!--
+    <a class="navbar-brand" href="#">
+      <img alt="Ming" src="./app/imgs/436631.jpg">
+    </a>
+
+    -->
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li><a routerLink="/type-page/type-page/11" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-screenshot"></span> Shopping</a></li>
+      </ul>
+
+      <!--
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/login/login">Login</a></li>
+            </ul>
+      -->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/dashboard/dashboard" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-pencil"></span> Admin</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="row" id="list1">
+  <div class="col-xs-12 col-sm-12" >
+    <div class="thumbnail">
+
+      <div class="caption">
+        <h3>Goods Information Administration</h3>
+      </div>
+
+      <br/>
+
+      <table class="table table-striped">
+
+        <tr>
+          <th></th>
+
+          <th click="orderByMe('goods_id')">Goods ID</th>
+          <th>cat ID</th>
+          <th ng-click="orderByMe('goods_name')">Goods Name</th>
+          <th>goods_sn</th>
+          <th>shop_price</th>
+          <th>market_price</th>
+          <th>last_update</th>
+          <th>thumb_img</th>
+        </tr>
+
+
+        <tr *ngFor="let item of goodsArray ">
+
+          <td>
+          <button class="delete"
+                  (click)="addOne(item); $event.stopPropagation()">C</button>
+
+          <button class="delete"
+                  (click)="deleteOne(item); $event.stopPropagation()">D</button>
+
+          <button class="delete"
+                  (click)="editOne(item); $event.stopPropagation()">U</button>
+          </td>
+          <td align="center">{{item.goods_id}}</td>
+          <td align="center">{{item.cat_id}}</td>
+          <td>{{item.goods_name.slice(0, 15)}}</td>
+          <td>{{item.goods_sn}}</td>
+          <td align="right">{{item.shop_price | currency:'USD':true}}</td>
+          <td align="right">{{item.market_price | currency:'USD':true}}</td>
+          <td>{{item.last_update | date :  "y.MM.dd hh:mm"}}</td>
+          <td>{{item.thumb_img}}</td>
+        </tr>
+
+      </table>
+
+<!--
+
+      { cat_id: 11, goods_id: 1, goods_sn: 'ECS000001', brand_id: 1,  goods_name: 'iPhone 6s',
+      shop_price: 769.99,  market_price: 69.60, goods_number: 17,  click_count: 0, goods_weight: 1.2,
+      goods_brief: '', goods_desc:'iPhone 6s 4.7-inch display',
+      thumb_img : './app/imgs/iphone6s-silver-select.png' ,  goods_img : 'images/200905/goods_img/4_G_1241422402722.jpg',
+      ori_img: 'images/200905/source_img/4_G_1241422402919.jpg',  is_on_sale: true,  is_delete: true ,  is_best:true ,  is_new:true ,  is_hot:true,
+      add_time : new Date('October 13, 2015 11:13:00'), last_update:  new Date('October 13, 2016 11:13:00')
+
+  -->
+
+      <p>
+
+        <button type="button" class="btn btn-outline-primary" (click)="goBack()">Go back</button>
+
+        <!--
+
+        <a routerLink="/type-page/type-page/1" class="btn btn-primary" role="button">Continue shopping</a>
+
+        <button type="button" class="btn btn-outline-primary" (click)="clearCart()"> Clear Cart</button>
+
+        <button type="button" class="btn btn-success" (click)="confirmAndSaveOrder()"> Confirm Order</button>
+-->
+
+      </p>
+
+    </div>
+  </div>
+
+
+
+
+</div>

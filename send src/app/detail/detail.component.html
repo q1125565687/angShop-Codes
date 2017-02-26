@@ -1,0 +1,162 @@
+<nav class="navbar navbar-default">
+
+    <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Angular 2</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li><a routerLink="/type-page/type-page/11" routerLinkActive="active fluffy">Shopping</a></li>
+      </ul>
+
+      <search></search>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/dashboard/dashboard" routerLinkActive="active fluffy">Admin</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/cart/cart" routerLinkActive="active fluffy">Cart</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+
+
+<div class="row">
+
+  <div class="container">
+
+    <div  *ngFor="let item of goodsArray" >
+
+      <div id="myCarousel" class="carousel slide col-xs-12 col-md-4 col-sm-4">
+
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div  class="item active" style="background:#FFF">
+            <img  src={{item.thumb_img}} alt="第一张">
+          </div>
+          <div  class="item" style="background:#FFF;">
+            <img  src={{item.thumb_img}} alt="第二张">
+          </div>
+          <div class="item" style="background:#FFF;">
+            <img  src={{item.thumb_img}} alt="第三张">
+          </div>
+        </div>
+        <a href="#myCarousel" data-slide="prev" class="carousel-control left"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control right"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+
+    <div class="thumbnail col-xs-12 col-md-6 col-sm-6">
+
+      <!--
+      <img class="img-thumbnail" src={{item.thumb_img}} alt="..." id="pic1">
+-->
+
+      <div class="caption">
+
+        <h3>{{item.goods_name}}</h3>
+
+      </div>
+
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <tr>
+              <th>Goods ID :</th>
+              <th>{{item.goods_id}}</th>
+            </tr>
+            <tr>
+              <th>Goods SN : </th>
+              <th>{{item.goods_sn}}</th>
+            </tr>
+
+            <tr>
+              <th>Market Price :</th>
+              <th><s>{{item.market_price|currency:'USD':true}}</s></th>
+            </tr>
+
+            <tr>
+              <th>Shop Price :</th>
+              <th>{{item.shop_price|currency:'USD':true}}</th>
+            </tr>
+
+            <tr>
+              <th>Stock Quantity: </th>
+              <th>{{item.goods_quantity}}</th>
+            </tr>
+
+            <tr>
+              <th>Sold Quantity: </th>
+              <th>{{item.sold_quantity}}</th>
+            </tr>
+
+            <tr>
+              <th>Product Weight : </th>
+              <th>{{item.goods_weight}} kg</th>
+            </tr>
+
+            <tr>
+              <th>Product Details : </th>
+              <th>{{item.goods_desc}}</th>
+            </tr>
+
+          </table>
+
+      <hr />
+
+          <div id="btn_div">
+            <button type="button" class="btn btn-outline-primary" (click)="goBack()" >Go Back</button>
+
+            <a routerLink="/cart/cart/{{item.goods_id}}/{{item.goods_name}}/{{item.shop_price}}" class="btn btn-success" role="button">Add to Cart</a>
+          </div>
+        </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+
+    $(function () {
+
+        alert("come in !");
+
+        //轮播自动播放
+        $('#myCarousel').carousel({
+            //自动4秒播放
+            interval : 4000,
+        });
+
+        //设置垂直居中
+//
+//        $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');
+//        $(window).resize(function () {
+//            var $height = $('.carousel-inner img').eq(0).height() ||
+//                $('.carousel-inner img').eq(1).height() ||
+//                $('.carousel-inner img').eq(2).height();
+//            $('.carousel-control').css('line-height', $height + 'px');
+//        });
+
+    });
+</script>

@@ -1,0 +1,49 @@
+<!--
+
+<p>
+  login works!
+</p>
+
+
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+
+  <div>
+    <label for="username">username</label>
+    <input type="text" name="username" id="username" [formControl]="username">
+    <div [hidden]="username.valid || username.untouched">
+      <div>The following problems have been found with the username:
+
+      </div>
+      <div [hidden]="!username.hasError('minlength')">Username can not be shorter than 5 characters.</div>
+      <div [hidden]="!username.hasError('required')">Username is required.</div>
+    </div>
+  </div>
+  <div >
+    <label for="password">password</label>
+    <input type="password" name="password" id="password" [formControl]="password">
+    <div [hidden]="password.valid || password.untouched">
+      <div>The following problems have been found with the password:</div>
+      <div [hidden]="!password.hasError('required')">The password is required.</div>
+    </div>
+  </div>
+  <button type="submit" [disabled]="!loginForm.valid">Log In</button>
+</form>
+-->
+
+<div class="container">
+
+  <form class="form-signin">
+    <h2 class="form-signin-heading">Please sign in</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  </form>
+
+</div> <!-- /container -->

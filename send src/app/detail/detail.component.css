@@ -1,0 +1,41 @@
+app-type-page {
+    height: 700px;
+}
+
+
+.row {
+    margin-top: 1em;
+}
+
+.caption {
+
+    background-color: #BBD8DC;
+}
+
+
+.small_pic {
+
+    display: inline;
+
+    height: 100px;
+    width:  100px;
+}
+
+
+#btn_div{
+
+    float: right;
+    display: inline;
+
+}
+
+
+#myCarousel{
+
+    float: left;
+    display: inline;
+    margin-right: 10px;
+
+}
+
+

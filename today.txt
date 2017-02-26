@@ -1,0 +1,12 @@
+create a database named institutedb
+
+create a collection named students
+
+add data from snippets.txt
+
+add a user for the database  : student
+
+
+studentdb
+
+mongodb://<dbuser>:<dbpassword>@ds157479.mlab.com:57479/mingjing2017

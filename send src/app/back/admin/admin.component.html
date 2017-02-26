@@ -1,0 +1,192 @@
+
+
+<nav class="navbar navbar-default">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Angular 2</a>
+
+      <!--
+    <a class="navbar-brand" href="#">
+      <img alt="Ming" src="./app/imgs/436631.jpg">
+    </a>
+
+    -->
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+
+        <li><a routerLink="/type-page/type-page/11" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-screenshot"></span> Shopping</a></li>
+      </ul>
+
+      <!--
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/login/login">Login</a></li>
+            </ul>
+      -->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/dashboard/dashboard" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-pencil"></span> Admin</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/cart/cart" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="row" id="list1">
+
+  <div class="container">
+
+    <div class="thumbnail" style="box-shadow:2px 2px 3px #ccc;">
+
+      <div class="caption">
+        <h2 class="tab-h2">Category Information Administration</h2>
+      </div>
+
+      <br/>
+
+      <table class="table table-striped" style="box-shadow:2px 2px 3px #ccc;">
+
+        <tr>
+          <th></th>
+          <th>Category ID</th>
+          <th>Parent ID</th>
+          <th>Name</th>
+          <th>Description</th>
+
+        </tr>
+
+        <tr *ngFor="let item of categories">
+
+          <td>
+          <button class="delete"
+                  (click)="addOne(); $event.stopPropagation()">C</button>
+
+          <button class="delete"
+                  (click)="deleteOne(item); $event.stopPropagation()">D</button>
+
+          <button class="delete"
+                  (click)="editOne(item); $event.stopPropagation()">U</button>
+          </td>
+          <td align="center">{{item.cat_id}}</td>
+          <td align="center">{{item.parent_id}}</td>
+          <td>{{item.cat_name}}</td>
+          <td>{{item.intro}}</td>
+        </tr>
+
+      </table>
+
+      <p>
+
+        <button type="button" class="btn btn-outline-primary" (click)="goBack()">Go back</button>
+
+        <!--
+
+        <a routerLink="/type-page/type-page/1" class="btn btn-primary" role="button">Continue shopping</a>
+
+        <button type="button" class="btn btn-outline-primary" (click)="clearCart()"> Clear Cart</button>
+
+        <button type="button" class="btn btn-success" (click)="confirmAndSaveOrder()"> Confirm Order</button>
+-->
+
+      </p>
+
+    </div>
+  </div>
+
+
+
+  <div class="col-xs-12 col-sm-4" >
+
+    <div class="thumbnail" *ngIf="editItem">
+
+      <div class="row">
+
+        <div class="container col-xs-12 col-sm-8">
+
+          <h3>{{subTitle}}</h3>
+
+          <hr />
+
+          <form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+
+            {{diagnostic}}
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name"
+                     required
+                     [(ngModel)]="editItem.cat_name" name="name">
+            </div>
+
+            <!--
+
+            <div class="form-group">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"
+                         [(ngModel)]="!editItem.parent_id" name="isRoot">Is root grade category
+                </label>
+
+-->
+
+<!-- bad formate
+                <label>
+                  <input type="checkbox" class="form-control" id="isRoot"
+                         [(ngModel)]="editItem.parent_id" name="isRoot">Is root grade category
+                </label>
+                -->
+<!--
+              </div>
+            </div>
+-->
+
+            <div class="form-group">
+              <label for="parent_id">Parent Category</label>
+              <select class="form-control"  id="parent_id"
+                      required
+                      [(ngModel)]="editItem.parent_id" name="power">
+                <option *ngFor="let item1 of subCat_OneGrageItems" [value]="item1.cat_id">{{item1.cat_name}}</option>
+              </select>
+            </div>
+
+
+            <div class="form-group">
+              <label for="description">Description</label>
+              <input type="text"  class="form-control" id="description"
+                     [(ngModel)]="editItem.intro" name="description">
+            </div>
+
+            <button type="button" class="btn btn-outline-primary" (click)="goBack()">Go back</button>
+            <button type="submit" class="btn btn-info" [disabled]="!heroForm.form.valid">Submit</button>
+
+          </form>
+        </div>
+      </div>
+
+      <!--
+        <app-edit></app-edit>
+      -->
+
+    </div>
+
+  </div>
+
+
+</div>

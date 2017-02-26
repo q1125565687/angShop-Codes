@@ -1,0 +1,182 @@
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Angular 2</a>
+
+      <!--
+    <a class="navbar-brand" href="#">
+      <img alt="Ming" src="./app/imgs/436631.jpg">
+    </a>
+
+    -->
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+
+        <li><a routerLink="/type-page/type-page/11" routerLinkActive="active fluffy">Shopping</a></li>
+      </ul>
+
+      <!--
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/login/login">Login</a></li>
+            </ul>
+      -->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/dashboard/dashboard" routerLinkActive="active fluffy">Admin</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="col-xs-12 col-sm-8" >
+
+  <div class="thumbnail" *ngIf="editItem">
+
+    <div class="row">
+
+      <div class="container col-xs-12 col-sm-10">
+
+        <img src={{editItem.thumb_img}} alt="Responsive image" class="img-circle">
+
+        <h3>{{title}}</h3>
+
+        <hr />
+
+        <form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+
+
+          <div class="container col-xs-12 col-sm-6">
+
+                  {{diagnostic}}
+
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name"
+                           required
+                           [(ngModel)]="editItem.goods_name" name="name">
+                  </div>
+
+
+                  <div class="form-group">
+                    <label for="cat_id">Category</label>
+                    <select class="form-control"  id="cat_id"
+                            required
+                            [(ngModel)]="editItem.cat_id" name="power">
+                      <option *ngFor="let item1 of subCategories" [value]="item1.cat_id">{{item1.cat_name}}</option>
+                    </select>
+                  </div>
+
+
+                  <div class="form-group">
+                    <label for="shop_price">Shop Price</label>
+
+                    <div class="input-group">
+                      <div class="input-group-addon">$</div>
+                      <input type="text" class="form-control" id="shop_price" [(ngModel)]="editItem.shop_price" placeholder="Amount" name="shop_price">
+                      <div class="input-group-addon"></div>
+                    </div>
+                  </div>
+
+
+                  <div class="form-group">
+                    <label for="market_price">Market Price</label>
+
+                    <div class="input-group">
+                      <div class="input-group-addon">$</div>
+                      <input type="text" class="form-control" id="market_price" [(ngModel)]="editItem.market_price" placeholder="Amount" name="market_price">
+                      <div class="input-group-addon"></div>
+                    </div>
+                  </div>
+
+
+<!--
+                  <div class="form-group">
+                    <label for="market_price">Market Price</label>
+                    <input type="text" class="form-control" id="market_price"
+                           required
+                           [(ngModel)]="editItem.market_price" name="market_price">
+                  </div>
+-->
+
+
+                  <div class="form-group">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"
+                               [(ngModel)]="editItem.is_free_post" name="is_free_post">Free Post
+                      </label>
+                    </div>
+                  </div>
+
+          </div>
+
+
+          <div class="container col-xs-12 col-sm-6">
+
+                  <div class="form-group">
+                    <label for="goods_quantity">Goods Quantity</label>
+                    <input type="text" class="form-control" id="goods_quantity"
+                           required
+                           [(ngModel)]="editItem.goods_quantity" name="goods_quantity">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="sold_quantity">Sold Quantity</label>
+                    <input type="text" class="form-control" id="sold_quantity"
+                           required
+                           [(ngModel)]="editItem.sold_quantity" name="sold_quantity">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="last_update">Update Time</label>
+                    <input type="datetime"  class="form-control" id="last_update"
+                           value={{editItem.last_update}} name="last_update">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="thumb_img">Picture</label>
+                    <input type="text"  class="form-control" id="thumb_img"
+                           [(ngModel)]="editItem.thumb_img"
+                           name="thumb_img">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile" name="exampleInputFile">
+                  </div>
+
+          </div>
+
+          <hr />
+
+          <button type="button" class="btn btn-outline-primary" (click)="goBack()">Go back</button>
+
+          <button type="submit" class="btn btn-info" [disabled]="!heroForm.form.valid">Submit</button>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,177 @@
+
+<nav class="navbar navbar-default">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Angular 2</a>
+
+      <!--
+    <a class="navbar-brand" href="#">
+      <img alt="Ming" src="./app/imgs/436631.jpg">
+    </a>
+
+    -->
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+
+        <li><a routerLink="/type-page/type-page/11" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-screenshot"></span> Shopping</a></li>
+      </ul>
+
+
+      <search></search>
+      <!--
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/login/login">Login</a></li>
+            </ul>
+      -->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/dashboard/dashboard" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-pencil"></span> Admin</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/cart/cart" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+
+
+<div class="row" id="list1">
+
+  <div class="container">
+
+  <div class="col-xs-3 col-md-3 col-sm-3" >
+
+    <h4>Your searching condition: </h4>
+    <ul class="heroes">
+      <li *ngFor="let hero of goodsArray"
+          [class.selected]="hero === selectedHero"
+          (click)="onSelect(hero)">
+        <span class="badge">{{hero.goods_id}}</span> {{hero.goods_name.slice(0, 15)}}
+        <button class="delete"
+                (click)="delete(hero); $event.stopPropagation()">x</button>
+      </li>
+    </ul>
+
+    <button type="button" class="btn btn-outline-primary" (click)="goBack()" >Go Back</button>
+
+  </div>
+
+
+  <div class="ccol-xs-12 col-sm-1" ></div>
+
+  <div class="ccol-xs-12 col-sm-6">
+    <app-small-goods [hero]="selectedHero"></app-small-goods>
+  </div>
+
+</div>
+
+
+
+<!--  teacher component
+<h6>
+  teacher component works!
+</h6>
+
+
+<div class="row">
+  <div class="col-xs-12 col-sm-1" ></div>
+
+  <div class="col-xs-12 col-sm-3" >
+
+  <h3> Seaching Results : </h3>
+
+  <div>
+    <label>Your searching condition :</label> <input #teacherName />
+    <button (click)="addToWeb(teacherName.value); teacherName.value=''">
+      Add
+    </button>
+  </div>
+
+    <ul class="heroes">
+      <li *ngFor="let goods of goodsArray"
+          [class.selected]="goods === selectedTeacher"
+          (click)="onSelect(goods)">
+        <span class="badge">{{goods.goods_id}}</span> <span>{{goods.goods_name}}</span>
+
+        <button class="delete"
+                (click)="deleteToWeb(teacher); $event.stopPropagation()">x</button>
+
+      </li>
+    </ul>
+
+  </div>
+
+</div>
+
+<my-hero-detail [hero]="selectedHero"></my-hero-detail>
+
+-->
+
+<!--
+
+    <div *ngIf="selectedTeacher">
+
+      <h6>
+        app-small-goods component works!!
+      </h6>
+
+      <app-small-goods></app-small-goods>
+
+    </div>
+-->
+
+
+
+  <!--
+  这两个组件目前还不能协同工作，直到我们把AppComponent组件的selectedTeacher
+  属性和DetailComponent组件的 teacher 属性绑定在一起，就像这样：
+
+  Call detail component
+
+  Temp stop  : 从父组件的属性绑定中接收英雄数据
+
+  <app-detail [teacher]="selectedTeacher"></app-detail>
+
+  -->
+
+  <!--  Has routerLink -- link
+  <ul class="heroes">
+  <li *ngFor="let teacher of teachers">
+  <span><a routerLink="/page-b/{{teacher.id}}/{{teacher.name}}/
+        {{teacher.age}}/{{teacher.picture}}/{{teacher.courseID}}" routerLinkActive="active">
+        {{teacher.id}}  {{teacher.name}} </a></span>
+  </li>
+  <h1>  Test Ming teachers</h1>
+  </ul>
+  -->
+
+  <!--
+<table class="table table-striped">
+    <tr *ngFor="let foodItem of foodItems">
+
+        <td><a routerLink="/page-b/{{foodItem.id}}/{{foodItem.name}}/
+        {{foodItem.mfg}}/{{foodItem.pkg}}/{{foodItem.qty}}" routerLinkActive="active">
+        {{foodItem.id}}</a></td>
+        <td>{{foodItem.name}}</td>
+
+    </tr>
+</table>
+      -->
+

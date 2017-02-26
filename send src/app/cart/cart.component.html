@@ -1,0 +1,108 @@
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">Angular 2</a>
+
+            <!--
+          <a class="navbar-brand" href="#">
+            <img alt="Ming" src="./app/imgs/436631.jpg">
+          </a>
+
+          -->
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+
+
+                <li><a routerLink="/type-page/type-page/11" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-screenshot"></span> Shopping</a></li>
+            </ul>
+
+            <!--
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/login/login">Login</a></li>
+                  </ul>
+            -->
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a routerLink="/dashboard/dashboard" routerLinkActive="active fluffy"><span class="glyphicon glyphicon-pencil"></span> Admin</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+
+<div class="row">
+
+      <div class="col-md-offset-1 col-md-6">
+
+          <div class="thumbnail" style="box-shadow:2px 2px 3px #ccc;">
+
+              <div class="caption">
+
+                <h3>Cart Goods Listing : </h3>
+
+              </div>
+
+              <br />
+
+              <table class="table table-striped" style="box-shadow:2px 2px 3px #ccc;">
+
+                <tr>
+                  <th></th>
+                  <th>Goods ID</th>
+                  <th>Goods Name</th>
+                  <th>Quantities</th>
+                  <th>Sold Price</th>
+                  <th>Subtotal</th>
+                </tr>
+
+                <tr *ngFor="let item of cartItems">
+                    <td>
+                  <button class="delete"
+                          (click)="deleteOne(item); $event.stopPropagation()">x</button>
+                    </td>
+                  <td align="center">{{item.goods_id}}</td>
+                  <td>{{item.goods_name}}</td>
+                  <td>{{item.quantity}}</td>
+                  <td>{{item.shop_price | currency:'USD':true}}</td>
+                  <td>{{item.shop_price*item.quantity | currency:'USD':true}}</td>
+
+                </tr>
+              </table>
+                <hr />
+
+              <div class="row" style="padding: 0 20px">
+
+                    <button type="button" class="btn btn-outline-primary col-lg-3 col-md-3 col-sm-3 col-xs-12"  (click)="goBack()">Go back</button>
+
+                    <a routerLink="/type-page/type-page/1" class="btn btn-primary  col-lg-3 col-md-3 col-sm-3 col-xs-12"  role="button">Continue shopping</a>
+
+                    <!--
+                    <a routerLink="/order/order" class="btn btn-primary" role="button">Check Order</a>
+                    <button type="button" class="btn btn-outline-primary" (click)="reloadCart()"> Reload Cart</button>
+                    -->
+                    <button type="button" class="btn btn-outline-primary  col-lg-3 col-md-3 col-sm-3 col-xs-12"  (click)="clearCart()"> Clear Cart</button>
+                    <button type="button" class="btn btn-success  col-lg-3 col-md-3 col-sm-3 col-xs-12"  (click)="confirmAndSaveOrder()"> Confirm Order</button>
+                </div>
+
+          </div>
+
+      </div>
+</div>
+
+
+

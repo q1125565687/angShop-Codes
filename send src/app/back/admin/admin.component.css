@@ -1,0 +1,79 @@
+.caption {
+
+    background-color: #BBD8DC;
+}
+
+
+#list1{
+
+
+}
+
+
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+.tab-h2 {
+    font-size: 20px;
+    /* text-align: center;  */
+    letter-spacing: 1px;
+    color: #0059b2;
+}
+.tab-p {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #999;
+    margin: 20px 0 40px 0;
+}
+
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+    .tab-h2 {
+        font-size: 26px;
+    }
+    .tab-p {
+        font-size: 16px;
+    }
+    .text h3 {
+        font-size: 22px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+    .tab-h2 {
+        font-size: 28px;
+    }
+    .tab-p {
+        font-size: 17px;
+    }
+    .text h3 {
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+    .tab-h2 {
+        font-size: 30px;
+    }
+    .tab-p {
+        font-size: 18px;
+    }
+    .text h3 {
+        font-size: 26px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+
+}

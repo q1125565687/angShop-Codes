@@ -1,0 +1,70 @@
+<h3 id="hh">My App</h3>
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Shopping</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li id="menu0"><a href="/home-page/home-page/1" >Mobiles‎</a></li>
+        <li id="menu1"><a href="/home-page/home-page/2" >Laptops</a></li>
+        <li id="menu2"><a href="/home-page/home-page/3" >Televisions</a></li>
+        <li id="menu3"><a href="#" >About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="home-page/home-page/{{parameterMenu}}"> All Types A</a></li>
+
+  <li role="presentation"><a href="type-page/type-page/{{tabUrl_ID_1}}">{{tabUrl_Name_1}}</a></li>
+  <li role="presentation"><a href="type-page/type-page/{{tabUrl_ID_2}}">{{tabUrl_Name_2}}</a></li>
+  <li role="presentation"><a href="type-page/type-page/{{tabUrl_ID_3}}">{{tabUrl_Name_3}}</a></li>
+</ul>
+
+
+
+<!-- Show all kinds Goods -->
+
+<div class="row">
+  <div class="col-xs-12 col-sm-3"  *ngFor="let item of goodsArray" >
+    <div class="thumbnail">
+      <img src={{item.thumb_img}}  alt="...">
+      <div class="caption">
+        <h3>{{item.goods_name}}</h3>
+        <p>{{item.goods_id}}-{{item.goods_sn}} : {{item.shop_price|currency:'USD':true}}</p>
+        <p><a href="#" class="btn btn-primary" role="button">Details</a>
+          <a href="#" class="btn btn-default" role="button">Add to Cart</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+  /*
+    $(document).ready(function(){
+
+        alert("test");  // No work ????
+        $(".nav-tabs a").click(function(){
+            $(this).tab('show');
+        });
+    });
+
+    */
+
+</script>
+
