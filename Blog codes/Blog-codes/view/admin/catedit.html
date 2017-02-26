@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--[if lt IE 9]>
+        <script src="./js/html5shiv.min.js"></script>
+        <script src="./js/respond.min.js"></script>
+    <![endif]-->
+<style>
+	.container {
+		width: 1170px;
+	}
+	#footer {
+		margin: 20px 0;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="well">
+			<h1>Ming's Blog</h1>
+		</div>
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="well">
+					<ul class="nav nav-pills nav-stacked">
+						<li style="font-style:bold">Category Manage &raquo&raquo</li>
+						<li><a href="index.php">Return Home</a></li>
+						<li><a href="catlist.php">category Modify</a></li>
+						<li class="active"><a href="">Category Edit</a></li>
+						<li><a href="catadd.php">Categor Add</a></li>
+						<li><a href="artlist.php">Go Back</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-9">
+				<form action="" method="post" class="form-horizontal">
+					<div class="form-group">
+						<label for="" class="col-xs-2 control-label">Column Name :</label>
+						<div class="col-xs-9">
+							<input type="text" class="form-control" name="catname" value="<?php echo $cat['catname']; ?>">
+						</div>
+					</div>
+					<div class="col-xs-9 col-xs-offset-2">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="well text-center" id="footer">
+			欢迎使用 Welcome to enjoy Ming's Blog ...
+		</div>
+	</div>
+	<script src="//libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>	
+	<script src="./js/bootstrap.min.js"></script>	
+</body>
+</html>

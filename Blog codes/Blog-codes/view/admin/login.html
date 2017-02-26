@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--[if lt IE 9]>
+        <script src="./js/html5shiv.min.js"></script>
+        <script src="./js/respond.min.js"></script>
+    <![endif]-->
+<style>
+	.container {
+		width: 1170px;
+	}
+	#footer {
+		margin: 20px 0;
+	}
+	form {
+		width: 200px;
+	}
+
+	#piccode{
+		float: right;
+	}
+
+	#pic_id1{
+		//position:absolute;
+		//top: 50px;
+		//right: 250px;
+		width: 75px;
+		height: 60px;
+		margin-left: 13px;
+		margin-top: 10px;
+		float: right;
+	}		
+
+	#hint {
+		width:500px;
+	}
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="well">
+			<a href="#"><img src="./images/ajax.jpg" alt="AJAX"  id="pic_id1" /></a>
+			<a href="#"><img src="./images/md5.jpg" alt="MD5"  id="pic_id1" /></a>
+			<h1>Ming's Blog</h1>
+		</div>
+		<form action="" class="center-block" method='post'>
+			<?php if(isset($error) && ($error === 2) ) { ?>
+			<p class="text_warning" id="hint">User Name incorrect, Please input again</p>
+			<?php } ?>
+			<?php if(isset($error) && ($error === 3) ) { ?>
+			<p class="text_warning" id="hint">Password incorrect, Please input again</p>
+			<?php } ?>
+			<?php if(isset($error) && ($error === 4) ) { ?>
+			<p class="text_warning" id="hint">Security Code incorrect, Please input again</p>
+			<?php } ?>
+			<?php if(!isset($error) ) { ?>
+			<p class="text_warning" id="hint">* User : 1   Password : 1</p>
+			<?php } ?>
+
+			<div class="form-group">
+				<input type="text" class="form-control" name="name" placeholder="User Name" />
+				<span id="reg" style="float:right"></span>
+			</div>
+			
+			<div class="form-group">
+				<input type="password" class="form-control" name="password" placeholder="Password" />
+				<span id="pass" style="float:right"></span>
+			</div>
+			
+			<div class="form-group">
+				<input type="text" class="form-control" name="code" placeholder="Security Code" />
+				<span id="codetip" style="float:right"></span>
+			</div>
+
+			<button class="btn btn-default">Login</button><span id="codetip"></span>
+			<img src="./makecode.php" id="piccode" onclick="chcode(); "/>
+	
+		</form>
+		<div class="well text-center" id="footer">
+			欢迎使用 Welcome to enjoy Ming's Blog ...
+		</div>
+	</div>
+	<script src="//libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>	
+	<script src="./js/bootstrap.min.js"></script>	
+</body>
+<script>
+
+	document.getElementsByName('code')[0].onblur = function() {
+
+		if(this.value == '') {
+			alert('Input Code, please !');
+			return;
+		}
+
+		var url = './verifycode.php?code=' + this.value;
+
+		var xhr = new XMLHttpRequest();
+
+		xhr.open('get' , url , true);
+		xhr.send(null);
+
+		xhr.onreadystatechange = function() {
+
+			if(this.readyState == 4){
+				if( this.responseText == 1) {
+					document.getElementById('codetip').innerHTML = '<font color="red">✓</font>';
+				} else {
+					document.getElementById('codetip').innerHTML = '<font color="red"> Input Code is wrong ✕</font>';
+				}
+ 			}
+		}
+	}
+
+	document.getElementsByName('name')[0].onblur = function() {
+
+		if(this.value == '') {
+			alert('User Name could not empty, please !');
+			return;
+		}
+
+		var url = './verifylogin.php?u=' + this.value;
+
+		var xhr = new XMLHttpRequest();
+
+		xhr.open('get' , url , true);
+		xhr.send(null);
+
+		xhr.onreadystatechange = function() {
+
+			if(this.readyState == 4){
+				if( this.responseText == 1) {
+					document.getElementById('reg').innerHTML = '<font color="red">✓</font>';
+				} else {
+					document.getElementById('reg').innerHTML = '<font color="red"> Input User Name is wrong ✕</font>';
+				}
+ 			}
+		}
+	}
+
+	function chcode() {
+		document.getElementById('piccode').src = "./makecode.php" + '?_=' + Math.random();
+	}
+</script>
+
+</html>

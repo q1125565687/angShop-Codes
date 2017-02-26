@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--[if lt IE 9]>
+        <script src="./js/html5shiv.min.js"></script>
+        <script src="./js/respond.min.js"></script>
+    <![endif]-->
+<style>
+	.container {
+		width: 1170px;
+	}
+	#footer {
+		margin: 20px 0;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="well">
+			<h1>Ming's Blog</h1>
+		</div>
+
+
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="well">
+					<ul class="nav nav-pills nav-stacked">
+
+						<!--
+						<li style="font-style:bold">博客管理 Administrate &raquo&raquo</li>
+						<li><a href="index.php">返回首页 Return</a></li>
+						<li><a href="artlist.php">博文列表 List</a></li>
+						<li class="active"><a href="">发表文章 Issue</a></li>
+						<li><a href="catlist.php">类型管理 Categorize</a></li>
+						<li><a href="">评论管理 Comment</a></li>
+						<li><a href="logout.php">退出登录 Logout</a></li>	
+-->
+
+
+						<li style="font-style:bold">Administrate &raquo&raquo</li>
+						<li><a href="index.php">Return Home</a></li>
+						<li><a href="artlist.php">Blog List</a></li>
+						<li class="active"><a href="">Eidt Blog</a></li>
+						<li><a href="catlist.php">Category admin</a></li>
+						<li><a href="">Comment</a></li>
+						<li><a href="logout.php">Logout</a></li>	
+
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-9">
+				<form action="" class="form-horizontal" method="post">
+					<div class="form-group">
+						<label for="" class="col-xs-2 control-label">Title:</label>
+						<div class="col-xs-9">
+							<input type="text" class="form-control" name="title" value="<?php echo $art['title'];?>">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="" class="col-xs-2 control-label">Category:</label>
+						<div class="col-xs-9">
+							<select name="cat_id" id="" class="form-control">
+								<!--
+								<option value="1" <?php echo $art['cat_id']==1 ? 'selected' : ''; ?>>人生 Life </option>
+								<option value="2" <?php echo $art['cat_id']==2 ? 'selected' : ''; ?>>哲学 Philosophy </option>
+								<option value="3" <?php echo $art['cat_id']==3 ? 'selected' : ''; ?>>技术 Technology </option>
+-->
+
+							<?php foreach($cats as $c) { ?>
+								<option value="<?php echo $c['cat_id']; ?>"><?php echo $c['catname']; ?></option>
+							<?php } ?> 
+
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="" class="col-xs-2 control-label">Content:</label>
+						<div class="col-xs-9">
+
+							<textarea name="content" class="form-control" rows="8"><?php echo $art['content']; ?></textarea>
+
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="" class="col-xs-2 control-label">Tags:</label>
+						<div class="col-xs-9">
+							<input type="text" class="form-control" name="tags" value="<?php echo $art['tags']; ?>">
+						</div>
+					</div>
+
+
+					<div class="col-xs-9 col-xs-offset-2">
+						<button type="submit" class="btn btn-primary">Commit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="well text-center" id="footer">
+			欢迎使用 Welcome to enjoy Ming's Blog ...
+		</div>
+	</div>
+	<script src="//libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>	
+	<script src="./js/bootstrap.min.js"></script>	
+</body>
+</html>

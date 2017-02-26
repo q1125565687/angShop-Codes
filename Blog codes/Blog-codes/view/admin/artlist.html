@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>博文列表</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--[if lt IE 9]>
+        <script src="./js/html5shiv.min.js"></script>
+        <script src="./js/respond.min.js"></script>
+    <![endif]-->
+<style>
+	.container {
+		width: 1170px;
+	}
+
+	#pic_id{
+		//position:absolute;
+		//top: 50px;
+		//right: 250px;
+		width: 90px;
+		height: 50px;
+		//margin-right: 33px;
+		margin-top: 20px;
+		float: right;
+	}	
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="well">
+			<a href="#"><img src="./images/php10.png" alt="php7"  id="pic_id" /></a>
+			<h1>Ming's Blog</h1>
+			<?php if ($login == true) { ?>
+				<h6> Logged in</h6>
+			<?php } ?>
+		</div>
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="well">
+					<ul class="nav nav-pills nav-stacked">
+						<li style="font-style:bold">Administrate &raquo&raquo</li>
+						<li><a href="index.php">Return Home</a></li>
+						<li class="active"><a href="">Blog List</a></li>
+						<li><a href="artadd.php">Publish Blog</a></li>
+						<li><a href="catlist.php">Category</a></li>
+						<li><a href="">Comment</a></li>
+						<li><a href="logout.php">Logout</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-9">
+				<table class="table table-hover table-condensed">
+					<tr style="font-style:bold">
+						<td>序号 Number</td>
+						<td>日期 Date</td>
+						<td>标题 Title</td>
+						<td>分类 Category</td>
+						<td>回复 Reply</td>
+						<td>修改 Modify</td>
+					</tr>
+					<?php foreach($arts as $v ) { ?>
+					<tr>
+						<td><?php echo $v['art_id']; ?></td>
+						<td><?php echo date('Y/m/d H:i', $v['pubtime']); ?></td>
+						<td><a href="art.php?art_id=<?php echo $v['art_id']; ?>"><?php echo $v['title']; ?></a></td>
+
+						<td><?php echo $v['catname']; ?></td>
+						<td><span class="badge">12</span></td>
+						<td>
+							<a href="artedit.php?art_id=<?php echo $v['art_id']; ?>">Edit</a> |
+							<a href="artdel.php?art_id=<?php echo $v['art_id']; ?>">Delete</a>
+						</td>
+					</tr>
+					<?php } ?>
+				</table>
+
+				<!-- 处理页码 *********************************************************************************-->
+				<ul class="pagination">
+					<li><a href="artlist.php?page=1">&laquo;</a></li>
+					<!-- 得到页码数组 从$pages = $page->pagnation(); *********************************************** -->
+					<?php foreach($pages as $k=>$p) { ?>
+						<?php if ($k == $curr) { ; ?>
+							<li><a href="artlist.php?<?php echo $p ?>" style="color:red"><?php echo $k ; ?></a></li>
+						<?php } else { ?>
+							<li><a href="artlist.php?<?php echo $p ?>"><?php echo $k ; ?></a></li>
+						<?php } ; ?>
+					<?php } ?>
+					<li><a href="artlist.php?page=<?php echo $maxPageNum ; ?>">&raquo;</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="well text-center" id="footer">
+			欢迎使用 Welcome to enjoy Ming's Blog ...
+		</div>
+	</div>
+	<script src="//libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>	
+	<script src="./js/bootstrap.min.js"></script>	
+</body>
+</html>
