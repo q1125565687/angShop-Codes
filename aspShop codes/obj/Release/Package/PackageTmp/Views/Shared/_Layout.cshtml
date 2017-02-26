@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>ASP.NET Application - Asp Shop</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand" style="padding:0;"><img src="~/images/logoa.png" alt=""></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Asp.Shop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                @*@{
+                    var a1 = "active";
+
+                    if (ViewBag.menuActive != "Home") {
+                        a1 = "";
+                    } else
+                    {
+                        a1 = "active";
+                    }
+                    <li class=@Html.Raw(a1)><a href="~/Home/Index"><span class="glyphicon glyphicon-home"></span><strong> Home</strong><span class="sr-only">(current)</span></a></li>
+                 }*@
+                @{
+                    var a1 = "active";
+
+                    if (ViewBag.menuActive != "Gallery")
+                    {
+                        a1 = "";
+                    } else
+                    {
+                        a1 = "active";
+                    }
+                    <li class=@Html.Raw(a1)><a href="~/Home/ShowGoods/11"><strong><span class="glyphicon glyphicon-picture"></span> Gallery</strong></a></li>
+                }
+                    @{
+                        if (ViewBag.menuActive != "Cart")
+                        {
+                            a1 = "";
+                        }
+                        else
+                        {
+                            a1 = "active";
+                        }
+                        <li class=@Html.Raw(a1)><a href="~/Home/ShowCartNp"><strong><span class="glyphicon glyphicon-shopping-cart"></span> Cart</strong></a></li>
+                    }
+                @{
+                    a1 = "active";
+                    if (ViewBag.menuActive != "About")
+                    {
+                        a1 = "";
+                    }
+                    <li class=@Html.Raw(a1)><a href="~/Home/About"><strong><span class="glyphicon glyphicon-question-sign"></span> About</strong><span class="sr-only">(current)</span></a></li>
+                }
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        @using (Html.BeginForm("Search", "Home", FormMethod.Post))
+                        {
+                            <div class="col-lg-3  col-lg-3 col-xs-2 hidden-xs navbar-form navbar-left clearfix">
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <input type="text" name="search" class="form-control" placeholder="Search for...">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </li>
+                    <li class="dropdown hidden-xs">
+                        @{
+                            if (!String.IsNullOrEmpty(ViewBag.loginUser))
+                            {
+                                 @*  No login do not show , or show dialog ...
+                                     <a class="dropdown-toggle" role="button" data-toggle="modal" data-target="#myModal"><strong><span class="glyphicon glyphicon-list"></span> Admin</strong><span class="caret"></span></a>*@
+
+                                if (ViewBag.menuActive != "Admin")
+                                {
+                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong><span class="glyphicon glyphicon-list"></span> Admin</strong><span class="caret"></span></a>
+                                }
+                                else
+                                {
+                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white;"><strong><span class="glyphicon glyphicon-pencil"></span> Admin</strong><span class="caret"></span></a>
+                                }
+                            }
+                        }
+
+                        <ul class="dropdown-menu">
+                            <li><a href="~/Admin/Category">Category</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="~/Admin/Goods">Goods</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="~/Admin/Account">Account</a></li>
+                        </ul>
+                    </li>
+
+                    @{
+                        if (ViewBag.menuActive != "Login")
+                        {
+                            a1 = "";
+                        }
+                        else
+                        {
+                            a1 = "active";
+                        }
+
+                        if (ViewBag.loginUser == "")
+                        {
+                            <li class=@Html.Raw(a1)><a href="~/Account/Login"><strong><span class="glyphicon glyphicon-log-in"></span> Login</strong></a></li>
+                        }
+                        else
+                        {
+                            <li><a href="~/Account/Logout"><strong><span class="glyphicon glyphicon-log-out"></span> Logout</strong></a></li>
+                        }
+                    }
+                    @{
+                        if (String.IsNullOrEmpty(ViewBag.loginUser))
+                        {
+                            var f = "Guest";
+                            <li>
+                                <a class="navbar-brand" href="#" style="height:30px;padding-top:10px">
+                                    <img alt="Brand" src="~/images/guest.png" title=@Html.Raw(f) />
+
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            var f = ViewBag.loginUser;
+                            <li>
+                                <a class="navbar-brand" href="#" style="height:30px;padding-top:10px">
+                                    <img alt="Brand" src="~/images/UserLog.png" title="@Html.Raw(f)" />
+                                </a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+    <br />
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ASP.NET Application</p>
+        </footer>
+    </div>
+
+    <!-- 模态框声明 -->
+    <div class="modal" id="myModal" tabindex="-1">
+        <!-- 窗口声明 -->
+        <div class="modal-dialog">
+            <!-- 内容声明 -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">DB Information Admin</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-info"><h2>Please login, first.</h2></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="~/Account/Login" class="btn btn-primary"><strong>Login</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击弹窗</button>
+    // For jQuery invoke...
+    <button class="btn btn-primary btn-lg" id="btn">点击弹窗</button>
+-->
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
+    <script type="text/javascript">
+
+	$('#btn').on('click', function () {
+		$('#myModal').modal('show');
+	});
+
+    </script>
+
+</body>
+</html>

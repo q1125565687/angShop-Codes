@@ -1,0 +1,88 @@
+﻿@model IEnumerable<AspShop.Models.IPN>
+
+@{
+    ViewBag.Title = "OrderList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Orders Listing</h2>
+
+<p></p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.txTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.transactionID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.custom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.paymentStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PayerFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PayerLastName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.txTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.transactionID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.custom)
+            </td>
+            <td>
+
+                @Html.DisplayFor(modelItem => item.amount, "MyDecimalTemplate")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.paymentStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PayerFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PayerLastName)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { id = item.transactionID })
+            </td>
+        </tr>
+    }
+
+</table>
