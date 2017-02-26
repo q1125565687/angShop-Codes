@@ -1,0 +1,209 @@
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\ApplicationInsights.config
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\csc.exe
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\vbc.exe
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\AspShop.dll.config
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\AspShop.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\AspShop.pdb
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.Web.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Helpers.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Mvc.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Razor.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Webpages.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.Web.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Razor.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Webpages.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Helpers.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\System.Web.Mvc.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\obj\Debug\AspShop.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\obj\Debug\AspShop.pdb
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\EntityFramework.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\EntityFramework.SqlServer.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\EntityFramework.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\bin\EntityFramework.SqlServer.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\obj\Debug\AspShop.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\obj\Debug\AspShop.pdb
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\ApplicationInsights.config
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\csc.exe
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\vbc.exe
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\AspShop.dll.config
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\AspShop.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\AspShop.pdb
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.SqlServer.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.Web.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Helpers.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Mvc.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Razor.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.SqlServer.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.Web.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Razor.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Helpers.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Mvc.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.Mvc.dll
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.Mvc.xml
+C:\Users\jingming\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\obj\Debug\AspShop.csprojResolveAssemblyReference.cache
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\ApplicationInsights.config
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\csc.exe
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\vbc.exe
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\AspShop.dll.config
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\AspShop.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\AspShop.pdb
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.Web.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.Mvc.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Helpers.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Mvc.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Razor.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.Web.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\PagedList.Mvc.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Razor.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Helpers.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\bin\System.Web.Mvc.xml
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\obj\Debug\AspShop.dll
+C:\Users\Ming Mac\Desktop\SSD MyCourses\Asp Net\AspShop\AspShop\AspShop\obj\Debug\AspShop.pdb
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\ApplicationInsights.config
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\csc.exe
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\System.Collections.Immutable.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\vbc.exe
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\roslyn\VBCSCompiler.exe.config
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\AspShop.dll.config
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\AspShop.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\AspShop.pdb
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\EntityFramework.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\EntityFramework.SqlServer.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.Web.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.ApplicationInsights.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.Web.Infrastructure.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\PagedList.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\PagedList.Mvc.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Helpers.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Mvc.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Razor.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Deployment.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Webpages.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Razor.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\EntityFramework.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\EntityFramework.SqlServer.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.Web.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.AI.WindowsServer.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.ApplicationInsights.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\PagedList.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\PagedList.Mvc.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Razor.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Webpages.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Deployment.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Webpages.Razor.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Helpers.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\bin\System.Web.Mvc.xml
+C:\SSD\AspNet\AspShop\AspShop\AspShop\obj\Debug\AspShop.dll
+C:\SSD\AspNet\AspShop\AspShop\AspShop\obj\Debug\AspShop.pdb

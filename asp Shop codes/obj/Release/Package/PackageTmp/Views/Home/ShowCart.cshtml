@@ -1,0 +1,123 @@
+﻿@model IEnumerable<AspShop.Models.Cart>
+
+@{
+    ViewBag.Title = "ShowCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p></p>
+
+<div class="panel panel-primary">
+
+    <!-- Default panel contents -->
+
+    <div class="panel-heading">
+        <h5  class="panel-title">Show Cart</h5>
+    </div>
+
+    <!-- Table -->
+    <table class="table table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.goods_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.goods_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.shop_price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.subCount)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td align="center" class="col-xs-12 col-sm-1">
+                    @Html.DisplayFor(modelItem => item.goods_id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.goods_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.shop_price, "MyDecimalTemplate")
+                </td>
+                <td align="center" class="col-xs-12 col-sm-1">
+                    @Html.DisplayFor(modelItem => item.quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.subCount, "MyDecimalTemplate")
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditCart", new { controller = "Home", id = item.goods_id }) |
+                    @Html.ActionLink("Delete", "DeleteCart", new { controller = "Home", id = item.goods_id })
+                </td>
+            </tr>
+        }
+
+        <tr class="lead">
+            @{
+                var totalPieces = ViewBag.totalPieces;
+                var totalPrice = ViewBag.totalPrice;
+                <td>
+                    Total
+                </td>
+                <td></td>
+                <td></td>
+                <td align="center" class="col-xs-12 col-sm-1">
+                    @Html.Raw(totalPieces)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => totalPrice, "MyDecimalTemplate")
+                </td>
+                <td>
+                </td>
+            }
+        </tr>
+    </table>
+
+    <div class="panel-footer">
+        <h5 class="panel-title">Shopping Happy</h5>
+    </div>
+
+</div>
+
+@*<hr />
+<p>
+    <a href="~/Home/Index">
+        <input type="button" value="Continue Shopping" class="btn btn-primary" style = "width:120px;" />
+    </a>
+    <a href="~/Home/Index">
+        <input type="button" value="Check out" class="btn btn-primary" style = "width:120px;" />
+    </a>
+</p>*@
+
+<p>
+    <div class="pull-left" style="display:block">
+        <a href="~/Home/Index">
+            <input type="button" value="Continue Shopping" class="btn btn-primary" />
+        </a>
+    </div>
+    @{
+        var ID = ViewBag.SessionID;
+
+        <div class="pull-right" style="display:block">
+            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="RYGHLXG58AXVN">
+                <input type="hidden" name="custom" value=@Html.Raw(ID)>
+                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+        </div>
+    }
+</p>
+<br /><br />
+
